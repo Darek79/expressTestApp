@@ -3,9 +3,9 @@ const hbs = require ('express-handlebars');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
 
-mongoose.connect(`mongodb+srv://buzzer79:Kumar123@cluster0-lm2e5.gcp.mongodb.net/testENV?retryWrites=true`,{ useNewUrlParser: true })
-.then(()=>console.log('service is connected'))
-.catch(e=>console.log(e));
+
+// .then(()=>console.log('service is connected'))
+// .catch(e=>console.log(e));
 
 const homepage = require('./routes/homepage');
 
